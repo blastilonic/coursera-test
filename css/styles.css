@@ -1,0 +1,97 @@
+#header-nav {
+	background-color: #ffccf0;
+}
+
+#logo-img {
+	background: url('../images/logo.png') no-repeat;
+	width: 200px;
+	height: 77px;
+	margin: 10px 15px 10px 0;
+}
+
+#navbar-brand {
+	padding-top: 25px;
+}
+
+#navbar-brand {
+	color: #ffccf0;
+}
+
+#nav-list {
+	margin-top: 10px;
+	color: #ffccf0;
+}
+
+#nav-list a {
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #ed34ce;
+}
+
+#navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #ed34ce;
+}
+
+#navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+.container .jumbotron {
+	margin-top: 30px;
+	padding: 0;
+	box-shadow: 0 0 50px #ffccf0;
+	border: 2px solid #ffccf0;
+}
+
+@media(min-width: 1200px) {
+	.jumbotron {
+		background: url('../images/jumbotron1200.png') no-repeat;
+		height: 750px;
+		box-shadow: 0 0 50px #ffccf0
+		border: 2px solid #ffccf0;
+	}
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+	#logo-img{
+		background: url('../images/logo-medium.png') no-repeat;
+		width: 150px;
+		height: 58px;
+		margin: 5px 5px 5px 0px;
+	}
+	.jumbotron {
+		background: url('../images/jumbotron992.png') no-repeat;
+		height: 620px;
+		box-shadow: 0 0 50px #ffccf0
+		border: 2px solid #ffccf0;
+	}
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.jumbotron {
+		background: url('../images/jumbotron768.png') no-repeat;
+		height: 480px;
+		box-shadow: 0 0 50px #ffccf0
+		border: 2px solid #ffccf0;
+	}
+
+}
+
+@media(max-width: 767px){
+	.navbar-brand {
+		padding-top: 10px;
+		height: 20px;
+	}
+
+	h1 {
+		margin: .67em 0;
+  		font-size: 5vw;
+	}
+
+
+
+}
