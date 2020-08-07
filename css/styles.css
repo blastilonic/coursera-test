@@ -46,6 +46,47 @@
 	border: 2px solid #ffccf0;
 }
 
+#qui-som, #veure-sailormoon, #contactar {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #ffccf0;
+	overflow: hidden;
+}
+
+#qui-som:hover, #veure-sailormoon:hover, #contactar;hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#qui-som {
+	background: url('../images/quisom.png') no-repeat;
+	background-position: center;
+}
+
+#veure-sailormoon {
+	background: url('../images/veuresailormoon.png') no-repeat;
+	background-position: center;
+}
+
+#contactar {
+	background: url('../images/contactar.png') no-repeat;
+	background-position: center;
+}
+
+#qui-som span, #veure-sailormoon span, #contactar span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
 @media(min-width: 1200px) {
 	.jumbotron {
 		background: url('../images/jumbotron1200.png') no-repeat;
@@ -92,6 +133,9 @@
   		font-size: 5vw;
 	}
 
-
+	#qui-som, #veure-sailormoon, #contactar {
+		width: 300px;
+		margin: 0 auto 15px;
+	}
 
 }
