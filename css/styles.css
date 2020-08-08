@@ -39,6 +39,19 @@
 	margin-top: -30px;
 }
 
+.panel-footer {
+	color: white;
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top:0;
+}
+
+.panel-footer section {
+	text-align: center;
+}
+
 .container .jumbotron {
 	margin-top: 30px;
 	padding: 0;
@@ -46,7 +59,7 @@
 	border: 2px solid #ffccf0;
 }
 
-#qui-som, #veure-sailormoon, #contactar {
+#qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
 	height: 200px;
 	width: 100%;
 	margin-bottom: 15px;
@@ -55,7 +68,7 @@
 	overflow: hidden;
 }
 
-#qui-som:hover, #veure-sailormoon:hover, #contactar;hover {
+#qui-som:hover, #veure-sailormoon:hover, #contactar:hover, #historia:hover, #episodis:hover, #personatges:hover {
 	box-shadow: 0 1px 5px 1px #cccccc;
 }
 
@@ -74,7 +87,22 @@
 	background-position: center;
 }
 
-#qui-som span, #veure-sailormoon span, #contactar span {
+#historia {
+	background: url('../images/historia.png') no-repeat;
+	background-position: center;	
+}
+
+#episodis {
+	background: url('../images/episodis.png') no-repeat;
+	background-position: center;	
+}
+
+#personatges {
+	background: url('../images/personatges.png') no-repeat;
+	background-position: center;	
+}
+
+#qui-som span, #veure-sailormoon span, #contactar span, #historia span, #episodis span, #personatges span {
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -87,10 +115,21 @@
 	opacity: .8;
 }
 
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.img {
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media(min-width: 1200px) {
 	.jumbotron {
 		background: url('../images/jumbotron1200.png') no-repeat;
-		height: 750px;
+		height: 645px;
 		box-shadow: 0 0 50px #ffccf0
 		border: 2px solid #ffccf0;
 	}
@@ -105,7 +144,7 @@
 	}
 	.jumbotron {
 		background: url('../images/jumbotron992.png') no-repeat;
-		height: 620px;
+		height: 534px;
 		box-shadow: 0 0 50px #ffccf0
 		border: 2px solid #ffccf0;
 	}
@@ -115,7 +154,7 @@
 @media(min-width: 768px) and (max-width: 991px){
 	.jumbotron {
 		background: url('../images/jumbotron768.png') no-repeat;
-		height: 480px;
+		height: 413px;
 		box-shadow: 0 0 50px #ffccf0
 		border: 2px solid #ffccf0;
 	}
@@ -138,4 +177,11 @@
 		margin: 0 auto 15px;
 	}
 
+}
+
+@media(max-width: 479px) {
+	#qui-som, #veure-sailormoon, #contactar {
+		width: 280px;
+		margin: 0 auto 15px;
+	}
 }
