@@ -30,6 +30,14 @@
 	background: #ed34ce;
 }
 
+.navbar, .btn-primary {
+ background-color: #f13f79 !important;
+}
+
+.btn-primary:hover {
+	background-color: #ed34ce
+}
+
 #navbar-header button.navbar-toggle, .navbar-header .icon-bar {
 	border: 1px solid #ed34ce;
 }
@@ -52,11 +60,15 @@
 	text-align: center;
 }
 
-.container .jumbotron {
-	margin-top: 30px;
-	padding: 0;
-	box-shadow: 0 0 50px #ffccf0;
-	border: 2px solid #ffccf0;
+h2 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
@@ -115,24 +127,15 @@
 	opacity: .8;
 }
 
+#botoepisodis {
+	margin:0 auto;
+    display:block;
+    width: 170px;
+}
+
 p {
     text-align: justify;
     text-justify: inter-word;
-}
-
-.img {
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-@media(min-width: 1200px) {
-	.jumbotron {
-		background: url('../images/jumbotron1200.png') no-repeat;
-		height: 645px;
-		box-shadow: 0 0 50px #ffccf0
-		border: 2px solid #ffccf0;
-	}
 }
 
 @media(min-width: 992px) and (max-width: 1199px){
@@ -142,22 +145,14 @@ p {
 		height: 58px;
 		margin: 5px 5px 5px 0px;
 	}
-	.jumbotron {
-		background: url('../images/jumbotron992.png') no-repeat;
-		height: 534px;
-		box-shadow: 0 0 50px #ffccf0
-		border: 2px solid #ffccf0;
-	}
 
 }
 
-@media(min-width: 768px) and (max-width: 991px){
-	.jumbotron {
-		background: url('../images/jumbotron768.png') no-repeat;
-		height: 413px;
-		box-shadow: 0 0 50px #ffccf0
-		border: 2px solid #ffccf0;
+	#qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
+		width: 100%;
+		margin: 0 auto 15px;
 	}
+
 
 }
 
@@ -172,7 +167,7 @@ p {
   		font-size: 5vw;
 	}
 
-	#qui-som, #veure-sailormoon, #contactar {
+	#qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
 		width: 300px;
 		margin: 0 auto 15px;
 	}
@@ -180,7 +175,7 @@ p {
 }
 
 @media(max-width: 479px) {
-	#qui-som, #veure-sailormoon, #contactar {
+	#qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
 		width: 280px;
 		margin: 0 auto 15px;
 	}
