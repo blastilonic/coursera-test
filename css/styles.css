@@ -139,14 +139,6 @@ p {
 }
 
 @media(min-width: 992px) and (max-width: 1199px){
-	#logo-img{
-		background: url('../images/logo-medium.png') no-repeat;
-		width: 150px;
-		height: 58px;
-		margin: 5px 5px 5px 0px;
-	}
-
-}
 
 	#qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
 		width: 100%;
@@ -168,7 +160,7 @@ p {
 	}
 
 	#qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
-		width: 300px;
+		width: 260px;
 		margin: 0 auto 15px;
 	}
 
