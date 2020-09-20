@@ -1,0 +1,185 @@
+#header-nav {
+	background-color: #ffccf0;
+}
+
+#logo-img {
+	background: url('../images/logo.png') no-repeat;
+	width: 200px;
+	height: 77px;
+	margin: 10px 15px 10px 0;
+}
+
+#navbar-brand {
+	padding-top: 25px;
+}
+
+#navbar-brand {
+	color: #ffccf0;
+}
+
+#nav-list {
+	margin-top: 10px;
+	color: #ffccf0;
+}
+
+#nav-list a {
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background: #ed34ce;
+}
+
+.navbar, .btn-primary {
+ background-color: #f13f79 !important;
+}
+
+.btn-primary:hover {
+	background-color: #ed34ce
+}
+
+#navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #ed34ce;
+}
+
+#navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+.panel-footer {
+	color: white;
+	margin-top: 30px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background-color: #222;
+	border-top:0;
+}
+
+.panel-footer section {
+	text-align: center;
+}
+
+h2 {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
+	height: 200px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 2px solid #ffccf0;
+	overflow: hidden;
+}
+
+#qui-som:hover, #veure-sailormoon:hover, #contactar:hover, #historia:hover, #episodis:hover, #personatges:hover {
+	box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#qui-som {
+	background: url('../images/quisom.png') no-repeat;
+	background-position: center;
+}
+
+#veure-sailormoon {
+	background: url('../images/veuresailormoon.png') no-repeat;
+	background-position: center;
+}
+
+#contactar {
+	background: url('../images/contactar.png') no-repeat;
+	background-position: center;
+}
+
+#historia {
+	background: url('../images/historia.png') no-repeat;
+	background-position: center;	
+}
+
+#episodis {
+	background: url('../images/episodis.png') no-repeat;
+	background-position: center;	
+}
+
+#personatges {
+	background: url('../images/personatges.png') no-repeat;
+	background-position: center;	
+}
+
+#qui-som span, #veure-sailormoon span, #contactar span, #historia span, #episodis span, #personatges span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 1em;
+	text-transform: uppercase;
+	background-color: #000;
+	color: #fff;
+	opacity: .8;
+}
+
+#botoepisodis {
+	margin:0 auto;
+    display:block;
+    width: 170px;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+  text-align: center;
+}
+.message a {
+  color: #f70a71;
+  text-decoration: none;
+}
+
+@media(min-width: 992px) and (max-width: 1199px){
+
+	#qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
+		width: 100%;
+		margin: 0 auto 15px;
+	}
+
+
+}
+
+@media(max-width: 767px){
+	.navbar-brand {
+		padding-top: 10px;
+		height: 20px;
+	}
+
+	h1 {
+		margin: .67em 0;
+  		font-size: 5vw;
+	}
+
+	#qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
+		width: 260px;
+		margin: 0 auto 15px;
+	}
+
+}
+
+@media(max-width: 479px) {
+	#qui-som, #veure-sailormoon, #contactar, #historia, #episodis, #personatges {
+		width: 280px;
+		margin: 0 auto 15px;
+	}
+}
